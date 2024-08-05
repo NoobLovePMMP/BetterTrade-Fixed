@@ -36,6 +36,10 @@ class TradeCommand extends Command implements PluginOwned{
             return 1;
         }
         $prefix = BetterTrade::$prefix;
+        if(!isset($args[0])){
+            $player->sendMessage($prefix . "Usage: /bettertrade [create|edit]");
+            return 1;
+        }
         switch($args[0]){
             case "create":
                 if(count($args) < 2){
@@ -61,7 +65,7 @@ class TradeCommand extends Command implements PluginOwned{
                 }
                 break;
             default:
-                $player->sendMessage($prefix . "Use: /bettertrade create Ore /bettertrade edit");
+                $player->sendMessage($prefix . "Usage: /bettertrade [create|edit]");
                 break;
         }
     }
