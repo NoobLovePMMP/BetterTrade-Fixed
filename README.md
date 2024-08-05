@@ -4,7 +4,7 @@
 ```YAML
 name: BetterTrade
 api: 5.0.0
-version: 1.0.0
+version: 1.0.1
 author: NoobMCGaming ( NoobLovePMMP )
 ```
 # Wiki For You :3
@@ -12,3 +12,6 @@ author: NoobMCGaming ( NoobLovePMMP )
 ```YAML
 commands: /trade, /bettertrade
 ```
+### Note of plugin
+In this version, it will fix some error in my bettertrade, I'm verry sorry !
+
